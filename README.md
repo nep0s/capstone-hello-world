@@ -27,7 +27,7 @@ An .env file must be created in the backend directory with the connection url of
 
 /.env
 ```yaml
-PORT = 5000
+PORT = 5500
 ```
 
 ## Frontend
