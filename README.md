@@ -38,7 +38,7 @@ An .env file must be created in the frontend directory with the backend url:
 ```yaml
 NEXT_PUBLIC_BACKEND_URL=<backend_link>
 ```
-The name of the variable must start with 'NEXT_PUBLIC_'. If the variable is not defined, 'http://localhost:5000/' will be used instead.
+The name of the variable must start with 'NEXT_PUBLIC_'. If the variable is not defined, 'http://localhost:5500/' will be used instead.
 
 # Deploy Developer version
 

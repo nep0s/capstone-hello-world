@@ -16,7 +16,7 @@ services:
       context: ./backend
       dockerfile: Dockerfile
     ports:
-      - "5000:5000"
+      - "5500:5500"
     # depends_on:
     #   - mongo
     volumes:
