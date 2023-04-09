@@ -2,6 +2,8 @@
 
 import React from 'react';
 import { useState, useEffect } from 'react';
+import dotenv from 'dotenv';
+dotenv.config();
 
 const axios = require('axios').default;
 

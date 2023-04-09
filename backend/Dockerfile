@@ -1,15 +1,15 @@
 # pull official base image
-FROM node:18-alpine
+FROM node:19-slim
 
+COPY . .
 
 # set working directory
 WORKDIR /app
 
-COPY package*.json ./
+
 
 RUN npm install
 
-COPY . .
 
 # start app
 CMD ["npm", "run", "dev"]
