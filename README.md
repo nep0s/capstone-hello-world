@@ -18,10 +18,6 @@ MONGO_INITDB_ROOT_USERNAME=admin
 MONGO_INITDB_ROOT_PASSWORD=pass
 DB_URL=mongodb://admin:pass@mongo:27017/
 
-ME_CONFIG_MONGODB_ADMINUSERNAME=admin
-ME_CONFIG_MONGODB_ADMINPASSWORD=pass
-ME_CONFIG_MONGODB_URL=mongodb://admin:pass@mongo:27017/
-
 URL='mongodb://admin:pass@mongo:27017/'
 ```
 
@@ -31,7 +27,7 @@ An .env file must be created in the backend directory with the connection url of
 
 /.env
 ```yaml
-DB_URL=mongodb://admin:pass@mongo:27017/admin
+PORT = 5000
 ```
 
 ## Frontend
