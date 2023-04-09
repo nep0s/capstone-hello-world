@@ -10,6 +10,8 @@ services:
       - "3000:3000"
     volumes:
       - ./frontend:/app
+    networks:
+      - frontend
 
   backend:
     build: 
@@ -21,6 +23,9 @@ services:
     #   - mongo
     volumes:
       - ./backend:/app
+    
+    networks:
+      - backend
 
   # mongo:
   #   image: mongo
@@ -33,4 +38,7 @@ services:
   #   env_file:
   #     - example.env
 
+networks:
+  frontend:
+  backend:
 

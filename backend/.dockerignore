@@ -1,0 +1,14 @@
+# Ignore Git files and directories
+.git
+.gitignore
+
+# Ignore node_modules and other generated files/directories
+node_modules
+coverage
+dist
+*.log
+
+# Ignore files and directories used by development tools
+.vscode
+*.sublime-project
+*.sublime-workspace
