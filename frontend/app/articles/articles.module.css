@@ -1,0 +1,70 @@
+#background {
+    position:relative;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    list-style: none;
+    margin: 5px;
+    justify-content: space-evenly;
+
+    box-shadow: 5px 0px 15px -3px gray;
+    border-radius: 4px;
+    background-color: rgb(219, 225, 225);
+}
+
+.container:hover {
+    filter: brightness(90%);
+}
+
+.delete_button {
+    margin: 0;
+
+    display: none;
+}
+
+.container:hover .delete_button {
+
+    display: flex;
+    transition: 1;
+}
+
+.title {
+    width: 40%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+    margin: 5px;
+}
+
+.date {
+    width: 20%;
+    min-width: 120px;
+    margin: 5px;
+}
+
+.author {
+    width: 20%;
+    color: gray;
+}
+
+.button_placeholder {
+    text-align: center;
+    height: 24px;
+    width: 50px;
+
+    margin:10px;
+}
+.centered {
+    display: flex;
+    justify-content: center;
+    height: 33px;
+
+    margin:10px;
+}
+
+.icon_button {
+    width: 30px;
+}

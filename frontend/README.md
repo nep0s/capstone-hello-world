@@ -11,6 +11,12 @@ NEXT_PUBLIC_BACKEND_URL=<backend_link>
 ```
 The name of the variable must start with 'NEXT_PUBLIC_'. If the variable is not defined, 'http://localhost:5000/' will be used instead.
 
+## Install dependencies
+
+```bash
+npm install
+```
+
 ## Run App
 Run the development server:
 
